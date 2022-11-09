@@ -22,7 +22,7 @@ const Login = () => {
       form.resetFields();
       navigate("/", { replace: true });
     }
-  }, [token]); //eslint disable line
+  }, [token]); //eslint-disable-line
 
   const onFinishFailed = (errorInfo) => {
     console.log("Failed: ", errorInfo);
